@@ -35,8 +35,7 @@ for ch in commands:
         tess.shape("turtle")
         tess.stamp()
     elif ch == 'D':          #dot stamp
-        tess.shape("dot")
-        tess.stamp()
+        tess.dot()
     else:                    #for any other character, print an error message
         print("Error: do not know the command:", ch)
 
