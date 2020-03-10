@@ -30,7 +30,7 @@ for ch in commands:
     elif ch == 'b':          #turn blue
         tess.color("blue")
     elif ch == 'p':          #turn purple
-        tess.color("purple')
+        tess.color("purple")
     elif ch == 'S':          #turtle stamp
         tess.shape("turtle")
         tess.stamp()
