@@ -1,5 +1,5 @@
-#Modified by:  !YourNameHere!
-#Email:      !YourEmailHere!
+#Modified by:  Ezekiel Walsh
+#Email:      Ezekiel.Walsh83@myhunter.cuny.edu
 #A program that uses command strings to control turtle drawing
 
 
@@ -13,6 +13,8 @@ for ch in commands:
     #perform action indicated by the character
     if ch == 'F':            #move forward
         tess.forward(50)
+    elif ch == 'B':          #move backward
+        tess.backward(50)
     elif ch == 'L':          #turn left
         tess.left(90)
     elif ch == 'R':          #turn right
@@ -27,6 +29,14 @@ for ch in commands:
         tess.color("green")
     elif ch == 'b':          #turn blue
         tess.color("blue")
+    elif ch == 'p':          #turn purple
+        tess.color("purple')
+    elif ch == 'S':          #turtle stamp
+        tess.shape("turtle")
+        tess.stamp()
+    elif ch == 'D':          #dot stamp
+        tess.shape("dot")
+        tess.stamp()
     else:                    #for any other character, print an error message
         print("Error: do not know the command:", ch)
 
